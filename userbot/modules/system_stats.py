@@ -165,8 +165,8 @@ async def bot_ver(event):
         revout = str(stdout.decode().strip()) + str(stderr.decode().strip())
 
         await event.edit(
-            "**★-**⚡𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ Versi:** \n "
-            f"heads/King-Userbot-0-x634i7u1"
+            "**★-**🐍HYDRA-𝙐𝙎𝙀𝙍𝘽𝙊𝙏🐍 Versi:** \n "
+            f"heads/Hydra-Userbot-0-x634i7u1"
             "\n**★-**Revisi:**\n "
             f"{revout}"
         )
@@ -347,9 +347,9 @@ async def redis(alive):
     await alive.edit("⚡𝗞👑𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡")
     await alive.edit("⚡👑𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡")
     await alive.edit("👑𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡")
-    await alive.edit("⚡")
+    await alive.edit("🐍")
     await asyncio.sleep(3)
-    await alive.edit("😈")
+    await alive.edit("🤴🏻")
     await asyncio.sleep(3)
     output = (
         f"**╭╼═✯══════════════✯═╾╮**\n"
