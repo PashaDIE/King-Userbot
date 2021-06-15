@@ -35,7 +35,7 @@ async def okgoogle(img):
         photo = io.BytesIO()
         await bot.download_media(message, photo)
     else:
-        await img.edit("`King Mohon Balas Ke Sticker`")
+        await img.edit("`Bang Mohon Balas Ke Sticker`")
         return
 
     if photo:
@@ -80,7 +80,7 @@ async def okgoogle(img):
         if guess and imgspage:
             await img.edit(f"[{guess}]({fetchUrl})\n\n`Sedang Mencari Gambar Yang Mirip...`")
         else:
-            await img.edit("`Maaf King, Saya Tidak Bisa Menemukan Apapun`")
+            await img.edit("`Maaf Bang, Gua Tidak Bisa Menemukan Apapun`")
             return
 
         if img.pattern_match.group(1):
@@ -148,5 +148,5 @@ async def scam(results, lim):
     return imglinks
 
 
-CMD_HELP.update({"reverse": ">⚡𝘾𝙈𝘿⚡`.reverse`"
+CMD_HELP.update({"reverse": ">🐣𝘾𝙈𝘿🐣`.reverse`"
                  "\nUsage: Balas gambar/stiker untuk melakukan pencarian terbalik di google"})
